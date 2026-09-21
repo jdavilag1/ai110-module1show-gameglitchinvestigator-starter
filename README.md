@@ -33,20 +33,23 @@ It wrote the code, ran away, and now the game is unplayable.
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. player guesses 20
+2. hint says "too low"
+3. player enters guess of 50, hint is too high
+4. with each guess, the score is updated
+5. game ends after correct guess or when the amount of attempts is over
 
-**Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
+**Screenshot** *(optional)*:
+![screenshot](Screenshot 2026-09-20 193231.png)<!-- Insert a screenshot of your fixed, winning game here -->
 
 ## 🧪 Test Results
 
 ```
 # Paste your pytest output here, e.g.:
-# pytest tests/
-# ========================= X passed in 0.XXs =========================
+```
+PS C:\Users\ADC\OneDrive - csudh.edu\AI101\ai110-module1show-gameglitchinvestigator-starter> python -m pytest tests/
+...
+3 passed in 0.13s
 ```
 
 ## 🚀 Stretch Features
